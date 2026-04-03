@@ -1,0 +1,14 @@
+[     640ms] [WARNING] Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview @ https://just-guppy-88.clerk.accounts.dev/npm/@clerk/clerk-js@6/dist/clerk.browser.js:11
+[    1241ms] [ERROR] Access to fetch at 'https://just-guppy-88.accounts.dev/sign-in?redirect_url=https%3A%2F%2Ftrimind-portfolios.vercel.app%2Fen%2Fdashboard%2Fnew&__clerk_db_jwt=dvb_3BoubMCKkGAxP6bJvUD1CYxloxh' (redirected from 'https://trimind-portfolios.vercel.app/en/dashboard/new?_rsc=2qfci') from origin 'https://trimind-portfolios.vercel.app' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://trimind-portfolios.vercel.app/en:0
+[    1242ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://just-guppy-88.accounts.dev/sign-in?redirect_url=https%3A%2F%2Ftrimind-portfolios.vercel.app%2Fen%2Fdashboard%2Fnew&__clerk_db_jwt=dvb_3BoubMCKkGAxP6bJvUD1CYxloxh:0
+[    1242ms] [ERROR] Failed to fetch RSC payload for https://trimind-portfolios.vercel.app/en/dashboard/new. Falling back to browser navigation. TypeError: Failed to fetch
+    at y (https://trimind-portfolios.vercel.app/_next/static/chunks/255-38b49df12a94ee57.js:1:40073)
+    at _ (https://trimind-portfolios.vercel.app/_next/static/chunks/255-38b49df12a94ee57.js:1:38943)
+    at https://trimind-portfolios.vercel.app/_next/static/chunks/255-38b49df12a94ee57.js:1:52126
+    at Object.o [as task] (https://trimind-portfolios.vercel.app/_next/static/chunks/255-38b49df12a94ee57.js:1:171569)
+    at c.s (https://trimind-portfolios.vercel.app/_next/static/chunks/255-38b49df12a94ee57.js:1:172274)
+    at c.enqueue (https://trimind-portfolios.vercel.app/_next/static/chunks/255-38b49df12a94ee57.js:1:171699)
+    at s (https://trimind-portfolios.vercel.app/_next/static/chunks/255-38b49df12a94ee57.js:1:52089)
+    at i (https://trimind-portfolios.vercel.app/_next/static/chunks/255-38b49df12a94ee57.js:1:51605)
+    at l (https://trimind-portfolios.vercel.app/_next/static/chunks/255-38b49df12a94ee57.js:1:60062)
+    at Object.prefetch (https://trimind-portfolios.vercel.app/_next/static/chunks/255-38b49df12a94ee57.js:1:26405) @ https://trimind-portfolios.vercel.app/_next/static/chunks/255-38b49df12a94ee57.js:0

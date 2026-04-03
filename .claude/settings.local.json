@@ -65,7 +65,30 @@
       "Bash(\"/c/Program Files/GitHub CLI/gh\" repo create trimindai/portfolio-othman --public --source /c/Users/DELL/portfolio-othman --remote neworigin --push 2>&1)",
       "Bash(\"/c/Program Files/GitHub CLI/gh\" repo create trimindai/portfolio-repo --public --source /c/Users/DELL/portfolio-repo --remote neworigin --push 2>&1)",
       "Bash(\"/c/Program Files/GitHub CLI/gh\" repo create trimindai/portfolio-wadhah --public --source /c/Users/DELL/UsersDELLportfolio-wadhah --remote neworigin --push 2>&1)",
-      "Bash(\"/c/Program Files/GitHub CLI/gh\" repo create trimindai/cursor-project-portfolio --public --source \"/c/cursor-project portfolio\" --push 2>&1)"
+      "Bash(\"/c/Program Files/GitHub CLI/gh\" repo create trimindai/cursor-project-portfolio --public --source \"/c/cursor-project portfolio\" --push 2>&1)",
+      "WebFetch(domain:corporate-three-pink.vercel.app)",
+      "Bash(find /c/Users/DELL -maxdepth 4 -iname *corporate* -type f)",
+      "Bash(curl -s \"https://corporate-three-pink.vercel.app/\")",
+      "Bash(find /c/Users/DELL/trimind-portfolios/messages -type f -name *.json)",
+      "Bash(ls:*)",
+      "Bash(find /c/Users/DELL/trimind-portfolios/src/app/[locale]/sign-in -type f)",
+      "Bash(find /c/Users/DELL/trimind-portfolios/src/app/[locale]/sign-up -type f)",
+      "Bash(mkdir -p \"/c/Users/DELL/trimind-portfolios/src/app/[locale]/sign-in/[[...sign-in]]\")",
+      "Bash(mkdir -p \"/c/Users/DELL/trimind-portfolios/src/app/[locale]/sign-up/[[...sign-up]]\")",
+      "Bash(mkdir -p \"/c/Users/DELL/trimind-portfolios/src/contexts\")",
+      "Bash(mkdir -p \"/c/Users/DELL/trimind-portfolios/src/app/[locale]/dashboard/[id]/edit\")",
+      "Bash(mkdir -p \"/c/Users/DELL/trimind-portfolios/src/app/[locale]/dashboard/[id]/preview\")",
+      "Bash(npx convex:*)",
+      "Bash(cd:*)",
+      "Bash(git push:*)",
+      "Bash(npx next:*)",
+      "Bash(xargs sed:*)",
+      "WebFetch(domain:trimind-portfolios.vercel.app)",
+      "Bash(CONVEX_DEPLOYMENT=dev:giddy-salmon-812 npx convex deploy --typecheck=disable --cmd \"echo done\" 2>&1)",
+      "Bash(curl -s -X POST https://trimind-portfolios.vercel.app/api/generate -H \"Content-Type: application/json\" -d '{\"\"\"\"basics\"\"\"\":{\"\"\"\"fullName\"\"\"\":\"\"\"\"Test\"\"\"\",\"\"\"\"title\"\"\"\":\"\"\"\"Dev\"\"\"\",\"\"\"\"email\"\"\"\":\"\"\"\"t@t.com\"\"\"\"},\"\"\"\"locale\"\"\"\":\"\"\"\"en\"\"\"\",\"\"\"\"isRTL\"\"\"\":false,\"\"\"\"portfolioUrl\"\"\"\":\"\"\"\"https://test.com\"\"\"\"}')",
+      "Bash(curl -s -X POST https://trimind-portfolios.vercel.app/api/generate -H \"Content-Type: application/json\" -d '{\"\"\"\"basics\"\"\"\":{\"\"\"\"fullName\"\"\"\":\"\"\"\"Dalal Alkandari\"\"\"\",\"\"\"\"title\"\"\"\":\"\"\"\"Developer\"\"\"\",\"\"\"\"email\"\"\"\":\"\"\"\"t@t.com\"\"\"\"},\"\"\"\"locale\"\"\"\":\"\"\"\"en\"\"\"\",\"\"\"\"isRTL\"\"\"\":false,\"\"\"\"portfolioUrl\"\"\"\":\"\"\"\"https://test.com\"\"\"\"}')",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "Bash(curl:*)"
     ]
   }
 }

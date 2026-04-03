@@ -1,0 +1,3 @@
+[submodule "trimind-portfolios"]
+	path = trimind-portfolios
+	url = https://github.com/trimindai/trimind-portfolios.git

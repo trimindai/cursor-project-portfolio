@@ -1,0 +1,102 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: Portfolio Pro
+        - generic [ref=e7]:
+          - link "Sign In" [ref=e8] [cursor=pointer]:
+            - /url: /en/sign-in
+          - link "Get Started" [ref=e9] [cursor=pointer]:
+            - /url: /en/dashboard/new
+    - generic [ref=e11]:
+      - heading "Build Your Professional Portfolio" [level=1] [ref=e12]
+      - paragraph [ref=e13]: Stand out with a stunning portfolio. Pick a template, fill your info, and publish in minutes.
+      - generic [ref=e14]:
+        - link "Create Your Portfolio" [ref=e15] [cursor=pointer]:
+          - /url: /en/dashboard/new
+        - link "Browse Templates" [ref=e16] [cursor=pointer]:
+          - /url: "#templates"
+    - generic [ref=e18]:
+      - heading "Everything You Need" [level=2] [ref=e19]
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - img [ref=e23]
+          - heading "Professional Templates" [level=3] [ref=e25]
+          - paragraph [ref=e26]: Choose from beautifully designed templates tailored for your profession.
+        - generic [ref=e27]:
+          - img [ref=e29]
+          - heading "Arabic & English" [level=3] [ref=e31]
+          - paragraph [ref=e32]: Full bilingual support with right-to-left Arabic layouts.
+        - generic [ref=e33]:
+          - img [ref=e35]
+          - heading "PDF Download & QR Code" [level=3] [ref=e37]
+          - paragraph [ref=e38]: Download your portfolio as PDF with a QR code linking to your live site.
+        - generic [ref=e39]:
+          - img [ref=e41]
+          - heading "Hosted URL" [level=3] [ref=e43]
+          - paragraph [ref=e44]: Get your own portfolio URL that you can share with anyone.
+    - generic [ref=e46]:
+      - heading "Templates for Every Profession" [level=2] [ref=e47]
+      - paragraph [ref=e48]: Designed specifically for GCC professionals
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - generic [ref=e52]: 🏢
+          - generic [ref=e53]:
+            - heading "Corporate" [level=3] [ref=e54]
+            - paragraph [ref=e55]: Accounting, Finance, Business Management, HR
+        - generic [ref=e56]:
+          - generic [ref=e58]: 👔
+          - generic [ref=e59]:
+            - heading "Executive" [level=3] [ref=e60]
+            - paragraph [ref=e61]: C-Suite, Directors, Consultants
+        - generic [ref=e62]:
+          - generic [ref=e64]: 💻
+          - generic [ref=e65]:
+            - heading "Developer" [level=3] [ref=e66]
+            - paragraph [ref=e67]: Software Engineers, IT, DevOps
+        - generic [ref=e68]:
+          - generic [ref=e70]: 🎨
+          - generic [ref=e71]:
+            - heading "Designer" [level=3] [ref=e72]
+            - paragraph [ref=e73]: UI/UX, Graphic Design, Architecture
+        - generic [ref=e74]:
+          - generic [ref=e76]: ⚕️
+          - generic [ref=e77]:
+            - heading "Medical" [level=3] [ref=e78]
+            - paragraph [ref=e79]: Doctors, Pharmacists, Healthcare
+        - generic [ref=e80]:
+          - generic [ref=e82]: 📚
+          - generic [ref=e83]:
+            - heading "Educator" [level=3] [ref=e84]
+            - paragraph [ref=e85]: Teachers, Professors, Trainers
+        - generic [ref=e86]:
+          - generic [ref=e88]: 📷
+          - generic [ref=e89]:
+            - heading "Creative" [level=3] [ref=e90]
+            - paragraph [ref=e91]: Photographers, Content Creators, Artists
+    - generic [ref=e93]:
+      - heading "Simple Pricing" [level=2] [ref=e94]
+      - paragraph [ref=e95]: One-time payment. No subscriptions.
+      - generic [ref=e96]:
+        - generic [ref=e97]: 5 KWD
+        - generic [ref=e98]: per portfolio
+        - list [ref=e99]:
+          - listitem [ref=e100]:
+            - generic [ref=e101]: ✓
+            - text: Hosted portfolio URL
+          - listitem [ref=e102]:
+            - generic [ref=e103]: ✓
+            - text: PDF download with QR code
+          - listitem [ref=e104]:
+            - generic [ref=e105]: ✓
+            - text: Arabic & English support
+          - listitem [ref=e106]:
+            - generic [ref=e107]: ✓
+            - text: Custom colors & fonts
+          - listitem [ref=e108]:
+            - generic [ref=e109]: ✓
+            - text: Print-optimized layout
+        - link "Start Now" [ref=e110] [cursor=pointer]:
+          - /url: /en/dashboard/new
+    - contentinfo [ref=e111]: © 2026 Portfolio Pro by TriMind
+  - alert [ref=e112]
